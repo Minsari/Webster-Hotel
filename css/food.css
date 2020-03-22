@@ -1,0 +1,20 @@
+#menu-wrapper{
+	padding-top: 150px;
+	
+}
+.card{
+	box-shadow:0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19) !important;
+	box-sizing: border-box;
+}
+.center{
+	text-align:center !important;
+	font-family: Montserrat,arial;
+	color: #FFB03B;
+}
+.container{
+	padding:0.01em 3px;
+}
+.container img:hover {
+	opacity: 0.7;
+	height: 260px;
+}

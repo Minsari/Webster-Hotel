@@ -1,0 +1,218 @@
+		.home{
+			margin-left: 210px;
+		}
+		h1{
+			color: #cddc39;
+		}
+		#header{
+			height: 400px;
+		}
+		#offer{
+			color: red;
+		}
+		input{
+			padding:8px;display:block;border:2px solid #ddd;width:90%;
+			font-size: 15px;
+			padding: 12px 20px 12px 40px;
+		}
+		#btn{
+			border:none;display:inline-block;outline:0;padding:10px 16px;border-radius: 5px;
+			color:#fff;background-color: #337ab7;text-align:center;cursor:pointer;
+			box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+		}
+		nav{
+			border-top-right-radius: 10px;
+			border-bottom-right-radius: 10px;
+			color:#000;
+			height:100%;width:190px;
+			background-color:#f1f1f1;
+			position:fixed !important;
+			z-index:1;
+			overflow:auto;
+			box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+			margin-right: 5px;
+			overflow-x: hidden;
+			position: fixed;
+		}
+		nav a{
+			text-decoration: none;
+			display: block;
+			width: 100%;
+			height: 60px;
+			font-size: 25px !important;
+			padding-left: 10px;
+
+		}
+		.social:hover{
+			opacity:0.60;
+		}
+		#contact{
+			font-family:Consolas,"courier new";font-size:18px;line-height:1.4;
+			background-color: #333;padding: 7px 0px 7px 20px;color: teal;letter-spacing: 2px;
+		}
+		.history, .mission, .vision{
+			font-family:Consolas,"courier new";font-size:18px;line-height:1.4;width:auto;background-color:#f1f1f1;
+			letter-spacing: :10px 12px;border-left:4px solid #009688;word-wrap:break-word;padding-left: 10px;
+			padding-top: 10px;padding-bottom: 10px;
+		}
+		#header2{
+			padding: 18px;background-color: #8bc34a;color: #f1f1f1; font-size: 30px;
+			box-shadow: 0 12px 4px 0 rgba(0,0,0,0.19),0 18px 15px 0 rgba(0,0,0,0.12) !important;
+			border-radius: 0px 5px;
+			position: fixed;top: 0;width: 100%;
+  
+		}
+		#header2 + .schedules{
+			padding-top: 150px;
+		}
+		.active {
+		    background-color: #9e9e9e;
+		}
+		.dropdown-container a{
+			color: #607d8b;
+		}
+		.dropdown-container{
+			padding-left: 10px;
+			width: 100%;
+			display: none;
+		}
+		nav a:hover{
+			background-color:#ccc;
+
+		}
+		#slider{
+			float: right;
+			width: 90px;
+			background-color:red;
+			color: red;
+
+		}
+		button{
+			display:inline-block;
+			padding:6px 10px;
+			vertical-align:middle
+		}
+		.my{
+			display: none;
+			margin-top: 5px;
+			margin-right: 10px;
+
+		}
+		.my img{
+			width: 100%;
+			height: 400px;
+			border-radius: 4px;
+			opacity: 0.6;
+		}
+		.text{
+			position:absolute;
+			left:0px;
+			bottom:8px;
+			color: red;
+			display: block;
+			position: absolute;
+    		background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    		color: #f1f1f1;
+    		width: 95%;
+    		padding: 20px;
+    		font-family: Arial;
+    		font-size: 17px;
+		}
+		#heading{
+			position: absolute;top: -9%;left: 0%;padding-left:29px;
+			font-size: 36px;color: #009688;background-color: #555;
+			text-shadow:1px 1px 0 #444;font-weight: bold;width: 96%;border-radius: 0px 0px 5px 0px;
+		}
+
+			#myTable {
+			  border-collapse: collapse;
+			  width: 100%;
+			  border: 1px solid 
+			  
+			}
+			#price{
+				text-align: center;font-weight: bolder;font-size: 17px;
+				color: #f44336; font-family: Monotype Corsiva;
+			}
+			#myInput {
+			  background-position: 10px 10px;
+			  background-repeat: no-repeat;
+			  width: 90%;
+			  font-size: 16px;
+			  padding: 12px 20px 12px 40px;
+			  border: 1px solid #ddd;
+			  margin-bottom: 12px;
+			}
+
+			#myTable th, #myTable td {
+			  text-align: left;
+			  padding: 12px;
+			}
+
+			#myTable tr {
+			  border-bottom: 2px solid #ddd;
+			  color: #009688;
+			  font-size: 18px;
+			}
+
+			#myTable tr.header, #myTable tr.header:hover{
+				background-color: #555;
+				font-weight: bolder;
+			}
+			#myTable tr:hover {
+			  background-color: #f1f1f1;
+			}
+			.column {
+			  box-sizing: border-box;
+			  
+			}
+			.column {
+			  float: left;
+			  width: 33%;
+			  margin-bottom: 16px;
+			  padding: 0 10px;
+
+
+			}
+
+			@media (max-width: 650px) {
+			  .column {
+			    width: 100%;
+			    display: block;
+			  }
+			}
+
+			.card {
+			  box-shadow:0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19) !important;
+			  background-color: #fff;
+			  border-radius: 5px;
+			}
+			.card h2{
+				padding-top: 10px;
+				color: #ff5722;
+			}
+
+			.container {
+			  padding: 0 1px;
+			}
+			.title {
+			  color: grey;
+			}
+
+			.button {
+			  border: none;
+			  outline: 0;
+			  display: inline-block;
+			  padding: 8px;
+			  color: #f1f1f1;
+			  background-color: #009688;
+			  text-align: center;
+			  cursor: pointer;
+			  width: 100%;
+			  margin-bottom: 10px;
+			}
+
+			.button:hover {
+			  background-color: #555;
+			}
+		
